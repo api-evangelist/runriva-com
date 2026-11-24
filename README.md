@@ -1,4 +1,4 @@
-# runriva-com
+# RunRiva
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-runriva-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://runriva.com/
+RunRiva provides a suite of quiz and trivia applications for players, hosts, and developers. Their products include Quiz Apps, RoundKit, RunRiva app, QuizBase, and RunRiva Quiz Show. They also offer a trivia API for developers to integrate quiz content into their own services, with open datasets, versioned questions, and licensing information. The company focuses on engaging quiz experiences and open data for educational and entertainment purposes.
+
+**Areas:** Quiz · Trivia · Education · Entertainment · API
+
+## RunRiva on APIs.io
+
+Everything profiled for RunRiva is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/runriva-com/](https://apis.io/providers/runriva-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [RunRiva Account API](https://apis.io/apis/runriva-com/runriva-com-account-api/) — Authenticated key info and usage.
+- [RunRiva Discovery API](https://apis.io/apis/runriva-com/runriva-com-discovery-api/) — Categories, topics, tags, subcategories, languages, stats.
+- [RunRiva Questions API](https://apis.io/apis/runriva-com/runriva-com-questions-api/) — Quiz content — list, random, by id.
+- [RunRiva Reports API](https://apis.io/apis/runriva-com/runriva-com-reports-api/) — Public problem reports (no key required).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RunRiva Agentic Access](https://apis.io/agentic-access/runriva-com/runriva-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [MeResponse](https://apis.io/schemas/runriva-com/runriva-com-me-response/)
+- [ReportAcceptedResponse](https://apis.io/schemas/runriva-com/runriva-com-report-accepted-response/)
+- [ReportRequest](https://apis.io/schemas/runriva-com/runriva-com-report-request/)
+- [StatsResponse](https://apis.io/schemas/runriva-com/runriva-com-stats-response/)
+- [TopicDetailResponse](https://apis.io/schemas/runriva-com/runriva-com-topic-detail-response/)
+- [UsageResponse](https://apis.io/schemas/runriva-com/runriva-com-usage-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Runriva Com Context](https://apis.io/jsonld/runriva-com/runriva-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RunRiva API Rules](https://apis.io/rules/runriva-com/runriva-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RunRiva Authentication](https://apis.io/security/runriva-com/runriva-com-authentication/)
+- [RunRiva Domain Security](https://apis.io/security/runriva-com/runriva-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://runriva.com/)
+- [Documentation](https://quizbase.runriva.com/docs)
+- [Changelog](https://runriva.com/whats-new/)
+
+## API Evangelist rating
+
+**Kin Score 39.4** — developing · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 48.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/runriva-com/](https://apis.io/providers/runriva-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RunRiva: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/runriva-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
